@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 # 1. Load data
 df = pd.read_csv("loan_approval_dataset.csv")
 
-# 🔥 Fix column names (remove spaces)
+#Fix column names (remove spaces)
 df.columns = df.columns.str.strip()
 
 print(df.columns)  # check cleaned names
